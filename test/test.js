@@ -1,3 +1,12 @@
+describe('woot', function() {
+    it('should show hello, levi', function() {
+        var ptag = document.getElementById("hipee");
+        var msg = ptag.value;
+
+        expect("Hello, levi").toMatch("Hello, levi");
+    });
+});
+
 /* global describe, expect, it, window */
 describe('add', function() {
     it('should add two numbers and return the result', function() {
